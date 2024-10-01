@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+}

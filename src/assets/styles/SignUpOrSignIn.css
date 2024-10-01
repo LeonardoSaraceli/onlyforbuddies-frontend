@@ -1,0 +1,11 @@
+#signup-signin-modal {
+  display: grid;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  padding: 1rem 2rem;
+  z-index: 2;
+  box-shadow: 1px 1px 25px #0007;
+}

@@ -1,0 +1,75 @@
+footer {
+  display: grid;
+  padding: 2rem 4rem;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: space-evenly;
+    list-style-type: none;
+
+    li {
+      display: grid;
+      grid-template-rows: repeat(2, max-content);
+      gap: 1rem;
+
+      .title {
+        font-weight: bold;
+      }
+
+      .links {
+        span {
+          font-weight: 500;
+        }
+      }
+    }
+
+    #guide {
+      .links {
+        display: grid;
+        grid-template-rows: repeat(4, max-content);
+        gap: 0.5rem;
+
+        a {
+          display: grid;
+          justify-self: left;
+        }
+      }
+    }
+
+    #contact {
+      .links {
+        display: grid;
+        grid-template-rows: repeat(2, max-content);
+        gap: 0.5rem;
+
+        a {
+          display: grid;
+          justify-self: left;
+        }
+      }
+    }
+
+    #social,
+    #company {
+      .links {
+        display: grid;
+        grid-template-rows: repeat(1, max-content);
+        gap: 0.5rem;
+
+        a {
+          display: grid;
+          justify-self: left;
+        }
+      }
+    }
+
+    svg {
+      padding: 0.5rem;
+      background-color: #f0f0f0;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+#modal-visible {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background: #00000033;
+  z-index: 3;
+}
